@@ -81,23 +81,23 @@ int main()
     schedule_task([&](){
         sum = 0;
         int parallelTime = time_call([&](){
-            parallel_transform(vectors.begin(),vectors.end(),sums.begin(),[](vector<int>* v)->int
+            samples::parallel_transform(vectors.begin(),vectors.end(),sums.begin(),[](vector<int>* v)->int
             {   
                 return count_if(v->begin(),v->end(),is_carmichael);
             });
 
-            sum = parallel_reduce(sums.begin(),sums.end(),0);
+            sum = samples::parallel_reduce(sums.begin(),sums.end(),0);
         });
         cout << parallelTime << " ms, num carmichaels " << sum << endl;
 
         sum = 0;
         int parallelTime2 = time_call([&](){
-            parallel_transform(vectors.begin(),vectors.end(),sums.begin(),[](vector<int>* v)->int
+            samples::parallel_transform(vectors.begin(),vectors.end(),sums.begin(),[](vector<int>* v)->int
             {   
                 return parallel_count_if(v->begin(),v->end(),is_carmichael);
             });
 
-            sum = parallel_reduce(sums.begin(),sums.end(),0);
+            sum = samples::parallel_reduce(sums.begin(),sums.end(),0);
         });
         cout << parallelTime2 << " ms, num carmichaels " << sum << endl;
         e.set();
