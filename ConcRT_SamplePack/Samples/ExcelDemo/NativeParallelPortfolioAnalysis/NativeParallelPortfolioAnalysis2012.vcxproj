@@ -76,30 +76,36 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>NativeParallelPortfolioAnalysis</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'">
     <LinkIncremental>true</LinkIncremental>
+    <TargetName>NativeParallelPortfolioAnalysis</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
     <LibraryPath>$(LibraryPath)</LibraryPath>
     <SourcePath>$(SourcePath)</SourcePath>
+    <TargetName>NativeParallelPortfolioAnalysis</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 20728.00|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>\\pcpfile1\ConcRT\raw\20728.00\src\public\vc\inc;$(IncludePath)</IncludePath>
     <LibraryPath>\\pcpfile1\ConcRT\raw\20728.00\x86ret\lib;$(LibraryPath)</LibraryPath>
     <SourcePath>\\pcpfile1\ConcRT\raw\20728.00\src\vctools\crt\crtw32\ConcRT;$(SourcePath)</SourcePath>
+    <TargetName>NativeParallelPortfolioAnalysis</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'">
     <LinkIncremental>false</LinkIncremental>
+    <TargetName>NativeParallelPortfolioAnalysis</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 20728.00|X64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>\\pcpfile1\ConcRT\raw\20728.00\src\public\vc\inc;$(IncludePath)</IncludePath>
     <LibraryPath>\\pcpfile1\ConcRT\raw\20728.00\amd64ret\lib;$(LibraryPath)</LibraryPath>
     <SourcePath>\\pcpfile1\ConcRT\raw\20728.00\src\vctools\crt\crtw32\ConcRT;$(SourcePath)</SourcePath>
+    <TargetName>NativeParallelPortfolioAnalysis</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
