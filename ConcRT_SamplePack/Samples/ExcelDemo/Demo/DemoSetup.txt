@@ -1,0 +1,6 @@
+1. Open Excel 2007, or 2010
+2. from office button, select Excel options at the bottom
+3. Select Add-In to the right
+4. Select "Manage: Excel Add-Ins" from the drop down list at the bottom, then "Go"
+5. Browse, and select "ConcRTDemoAddin.xll"
+6. Open "Demo.xlsm"

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph aa="a" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Project A" Background="#FF008000" />
+    <Node Id="Project B" Background="#FF008000" />
+    <Node Id="Project C" Background="#FF008000" />
+    <Node Id="Project D" Background="#FF008000" />
+  </Nodes>
+  <Links>
+    <Link Source="Project A" Target="Project C" />
+    <Link Source="Project A" Target="Project D" />
+    <Link Source="Project B" Target="Project D" />
+  </Links>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="aa" DataType="System.String" />
+  </Properties>
+</DirectedGraph>

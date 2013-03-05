@@ -1,0 +1,20 @@
+LIBRARY ConcRTDemoAddin.XLL
+
+EXPORTS
+	xlAutoOpen
+	xlAutoClose
+	xlAutoRegister12
+	xlAutoAdd
+	xlAutoRemove
+	xlAddInManagerInfo12
+	PayOff
+	PayOff_Parallel
+    StockPortfolio
+    StockPortfolio_Parallel
+    StockPortfolio_Update
+    StockPortfolio_Delete
+    StockPortfolio_IsDone
+    StockPortfolio_Cancel
+	StockPortfolio_GetCalcTime
+	StockPortfolio_GetFileReadTime
+	
