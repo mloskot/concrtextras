@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeParallelPortfolioAnalysis", "NativeParallelPortfolioAnalysis\NativeParallelPortfolioAnalysis.vcxproj", "{71A31CB3-C721-4780-B07C-AC0C5D7B8165}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeParallelPortfolioAnalysis2012", "NativeParallelPortfolioAnalysis\NativeParallelPortfolioAnalysis2012.vcxproj", "{71A31CB3-C721-4780-B07C-AC0C5D7B8165}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{7BC19C07-3FA5-4B59-B363-680877E7117D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo2012", "Demo2012", "{7BC19C07-3FA5-4B59-B363-680877E7117D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{854E45B9-8B26-4327-BE7D-CC99F5457A41}"
 	ProjectSection(SolutionItems) = preProject
@@ -511,7 +511,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{854E45B9-8
 		Demo\Data\ZMH.csv = Demo\Data\ZMH.csv
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConcRTDemoAddin", "ConcRTDemoAddin\ConcRTDemoAddin.vcxproj", "{4D524F94-8FC1-42C8-9459-DBA5D3246000}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConcRTDemoAddin2012", "ConcRTDemoAddin\ConcRTDemoAddin2012.vcxproj", "{4D524F94-8FC1-42C8-9459-DBA5D3246000}"
 	ProjectSection(ProjectDependencies) = postProject
 		{71A31CB3-C721-4780-B07C-AC0C5D7B8165} = {71A31CB3-C721-4780-B07C-AC0C5D7B8165}
 	EndProjectSection

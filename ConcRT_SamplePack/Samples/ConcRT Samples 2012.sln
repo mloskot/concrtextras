@@ -1,47 +1,47 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event", "event\event.vcxproj", "{CCEA3D2E-F687-4AB1-8ED2-528381A1F29A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "event2012", "event\event2012.vcxproj", "{CCEA3D2E-F687-4AB1-8ED2-528381A1F29A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fibonacci", "fibonacci\fibonacci.vcxproj", "{8B2BBE76-B149-47CB-9A7B-C5F784F0246D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fibonacci2012", "fibonacci\fibonacci2012.vcxproj", "{8B2BBE76-B149-47CB-9A7B-C5F784F0246D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindString", "FindString\FindString.vcxproj", "{296D64BE-AC65-4081-8EBF-67C530D87D78}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindString2012", "FindString\FindString2012.vcxproj", "{296D64BE-AC65-4081-8EBF-67C530D87D78}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiningPhilosophers", "DiningPhilosophers\DiningPhilosophers.vcxproj", "{B38D3C99-1A3F-474D-BE5A-623B1BE40F52}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiningPhilosophers2012", "DiningPhilosophers\DiningPhilosophers2012.vcxproj", "{B38D3C99-1A3F-474D-BE5A-623B1BE40F52}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "count carmichaels", "carmichaels\carmichaels.vcxproj", "{0D91D98A-CC92-4C6F-8E6B-95937BD78D56}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "carmichaels2012", "carmichaels\carmichaels2012.vcxproj", "{0D91D98A-CC92-4C6F-8E6B-95937BD78D56}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nbody", "nbodies\nbody.vcxproj", "{9CF5BAA9-DBF7-4C71-A966-8CF42371B8C2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nbod2012y", "nbodies\nbody2012.vcxproj", "{9CF5BAA9-DBF7-4C71-A966-8CF42371B8C2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cartoonizer", "Cartoonizer\Cartoonizer.vcxproj", "{B309F319-F481-4AD2-A281-4F4D9EB4CAF3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cartoonizer2012", "Cartoonizer\Cartoonizer2012.vcxproj", "{B309F319-F481-4AD2-A281-4F4D9EB4CAF3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConcRTDemoAddin", "ExcelDemo\ConcRTDemoAddin\ConcRTDemoAddin.vcxproj", "{4D524F94-8FC1-42C8-9459-DBA5D3246000}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConcRTDemoAddin2012", "ExcelDemo\ConcRTDemoAddin\ConcRTDemoAddin2012.vcxproj", "{4D524F94-8FC1-42C8-9459-DBA5D3246000}"
 	ProjectSection(ProjectDependencies) = postProject
 		{71A31CB3-C721-4780-B07C-AC0C5D7B8165} = {71A31CB3-C721-4780-B07C-AC0C5D7B8165}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeParallelPortfolioAnalysis", "ExcelDemo\NativeParallelPortfolioAnalysis\NativeParallelPortfolioAnalysis.vcxproj", "{71A31CB3-C721-4780-B07C-AC0C5D7B8165}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeParallelPortfolioAnalysis2012", "ExcelDemo\NativeParallelPortfolioAnalysis\NativeParallelPortfolioAnalysis2012.vcxproj", "{71A31CB3-C721-4780-B07C-AC0C5D7B8165}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindFirst", "FindFirst\FindFirst.vcxproj", "{86CB0557-3C5E-435F-A3E3-6122C64A22B5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindFirst2012", "FindFirst\FindFirst2012.vcxproj", "{86CB0557-3C5E-435F-A3E3-6122C64A22B5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "parallel_for_flavors", "parallel_for_flavors\parallel_for_flavors.vcxproj", "{0572D52A-572F-40AC-8602-CCAAA7E52B47}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "parallel_for_flavors2012", "parallel_for_flavors\parallel_for_flavors2012.vcxproj", "{0572D52A-572F-40AC-8602-CCAAA7E52B47}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeSortDemo", "ParallelSortDemo\NativeSortDemo\NativeSortDemo.vcxproj", "{47415FB9-1427-46DF-97BF-EB69D80FFE92}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeSortDemo2012", "ParallelSortDemo\NativeSortDemo\NativeSortDemo2012.vcxproj", "{47415FB9-1427-46DF-97BF-EB69D80FFE92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelSortDemo", "ParallelSortDemo\ParallelSortDemo\ParallelSortDemo.csproj", "{BBE30FF6-45CF-4C75-A662-6E57091284CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelSortDemo2012", "ParallelSortDemo\ParallelSortDemo\ParallelSortDemo2012.csproj", "{BBE30FF6-45CF-4C75-A662-6E57091284CD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{47415FB9-1427-46DF-97BF-EB69D80FFE92} = {47415FB9-1427-46DF-97BF-EB69D80FFE92}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectBuild", "ProjectBuild\ProjectBuild.vcxproj", "{2E43C704-CA7B-492E-98FE-C182523F8850}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectBuild2012", "ProjectBuild\ProjectBuild2012.vcxproj", "{2E43C704-CA7B-492E-98FE-C182523F8850}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI_Tasks", "GUI_Tasks\GUI_Tasks.vcxproj", "{172BFC93-8CB0-4F65-8122-010CF50A9536}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI_Tasks2012", "GUI_Tasks\GUI_Tasks2012.vcxproj", "{172BFC93-8CB0-4F65-8122-010CF50A9536}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TimeOut", "TimeOut\TimeOut.vcxproj", "{DFDEACFE-C1B6-434B-BC1B-E84BA6561E5A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TimeOut2012", "TimeOut\TimeOut2012.vcxproj", "{DFDEACFE-C1B6-434B-BC1B-E84BA6561E5A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "make", "make\make.vcxproj", "{34FBEF13-9FB0-4AB4-A56F-4023EDF79EFF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "make2012", "make\make2012.vcxproj", "{34FBEF13-9FB0-4AB4-A56F-4023EDF79EFF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SequenceAlignment", "SequenceAlignment\SequenceAlignment.vcxproj", "{D7D20319-6A23-4F1B-BABF-4EA8D05A7E1E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SequenceAlignment2012", "SequenceAlignment\SequenceAlignment2012.vcxproj", "{D7D20319-6A23-4F1B-BABF-4EA8D05A7E1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
