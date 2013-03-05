@@ -178,6 +178,7 @@ namespace details
             ::Concurrency::_Parallel_chunk_impl(first, iterations, step, func, task_group, chunk_helpers, num_chunks, true);
         }
     }
+
     template <typename random_iterator, typename function>
     void parallel_for_each_impl(const random_iterator& first, const random_iterator& last, const function& func, std::random_access_iterator_tag)
     {
@@ -282,7 +283,11 @@ template <typename index_type, typename function>
 void parallel_for_fixed(index_type first, index_type last, index_type step, const function& func)
 {
     _Trace_ppl_function(PPLParallelForEventGuid, _TRACE_LEVEL_INFORMATION, CONCRT_EVENT_START);
+#if _MSC_VER > 1600
+    ::concurrency::parallel_for(first, last, step, func, static_partitioner());
+#else
     details::parallel_for_impl(first, last, step, func);
+#endif
     _Trace_ppl_function(PPLParallelForEventGuid, _TRACE_LEVEL_INFORMATION, CONCRT_EVENT_END);
 }
 
@@ -330,7 +335,12 @@ template <typename iterator, typename function>
 void parallel_for_each_fixed(iterator first, iterator last, const function& func)
 {
     _Trace_ppl_function(PPLParallelForeachEventGuid, _TRACE_LEVEL_INFORMATION, CONCRT_EVENT_START);
+#if _MSC_VER > 1600
+    ::concurrency::parallel_for_each(first, last, func, static_partitioner());
+#else
     details::parallel_for_each_impl(first, last, func, std::_Iter_cat(first));
+#endif
+    
     _Trace_ppl_function(PPLParallelForeachEventGuid, _TRACE_LEVEL_INFORMATION, CONCRT_EVENT_END);
 }
 
@@ -1217,6 +1227,9 @@ void _Parallel_transform_unary_impl2(_Input_iterator _First, _Input_iterator _La
 template <typename _Input_iterator, typename _Output_iterator, typename _Unary_operator>
 _Output_iterator parallel_transform(_Input_iterator _First, _Input_iterator _Last, _Output_iterator _Result, const _Unary_operator& _Unary_op)
 {
+#if _MSC_VER > 1600
+    return ::concurrency::parallel_transform(_First, _Last, _Result, _Unary_op);
+#else
     typedef std::iterator_traits<_Input_iterator>::iterator_category _Input_iterator_type;
     typedef std::iterator_traits<_Output_iterator>::iterator_category _Output_iterator_type;
 
@@ -1227,6 +1240,7 @@ _Output_iterator parallel_transform(_Input_iterator _First, _Input_iterator _Las
     }
 
     return _Result;
+#endif
 }
 
 /// <summary>
@@ -1275,6 +1289,9 @@ template <typename _Input_iterator1, typename _Input_iterator2, typename _Output
 _Output_iterator parallel_transform(_Input_iterator1 _First1, _Input_iterator1 _Last1, _Input_iterator2 _First2, 
     _Output_iterator _Result, const _Binary_operator& _Binary_op)
 {
+#if _MSC_VER > 1600
+    return ::concurrency::parallel_transform(_First1, _Last1, _First2, _Result, _Binary_op);
+#else
     typedef std::iterator_traits<_Input_iterator1>::iterator_category _Input_iterator_type1;
     typedef std::iterator_traits<_Input_iterator2>::iterator_category _Input_iterator_type2;
     typedef std::iterator_traits<_Output_iterator>::iterator_category _Output_iterator_type;
@@ -1286,6 +1303,7 @@ _Output_iterator parallel_transform(_Input_iterator1 _First1, _Input_iterator1 _
     }
 
     return _Result;
+#endif
 }
 
 #pragma warning(pop)
